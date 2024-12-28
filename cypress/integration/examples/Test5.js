@@ -1,8 +1,8 @@
-describe('My Second Test Suite', function() 
+describe('Find elements in a table', function() 
 {
     /// <reference types="Cypress" />
  
-it('My FirstTest case',function() {
+it('Find elements in a table',function() {
  
 //Check boxes
 cy.visit("https://rahulshettyacademy.com/AutomationPractice/")

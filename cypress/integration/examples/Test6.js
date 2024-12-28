@@ -1,8 +1,8 @@
-describe('My Second Test Suite', function() 
+describe('Mouse hover', function() 
 {
     //for this testcase to work you need to install cypress -iframe
  
-it('My FirstTest case',function() {
+it('Mouse hover',function() {
  
 //Check boxes
 cy.visit("https://rahulshettyacademy.com/AutomationPractice/")

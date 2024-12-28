@@ -1,7 +1,7 @@
-describe('My Second Test Suite', function() 
+describe('iFrames', function() 
 {
  
-it('My FirstTest case',function() {
+it('iFrames',function() {
  
 //iframes
 cy.visit("https://rahulshettyacademy.com/AutomationPractice/")

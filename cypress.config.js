@@ -34,8 +34,10 @@ module.exports = defineConfig({
 
     },
     
-    specPattern: 'cypress/integration/examples/*.js',
-    screenshotsFolder:'cypress/failures/screenshots'
+    specPattern: 'cypress/e2e-tests/*.cy.{js,jsx,ts,tsx}',
+    //specPattern: 'cypress/integration/examples/*.js',
+    screenshotsFolder:'cypress/failures/screenshots',
+    experimentalOriginDependencies: true
   },
 });
 

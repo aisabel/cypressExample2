@@ -20,7 +20,7 @@ describe('Handling Child Windows', () => {
 
         })
  
-        //
+        //navigate to a new page
         cy.get("#opentab").invoke('removeAttr','target').click();
  
         cy.origin("https://www.qaclickacademy.com",()=>
